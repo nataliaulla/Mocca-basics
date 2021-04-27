@@ -1,0 +1,136 @@
+/*VARIABLES*/
+/*MIXINS*/
+.logo {
+  height: 130px;
+  width: 130px; }
+
+.formulario {
+  color: saddlebrown; }
+
+.contacto {
+  color: sienna;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 20px; }
+
+li {
+  width: 150px;
+  margin: 5px;
+  font-family: "Hind Siliguri", sans-serif;
+  color: rgba(122, 93, 59, 0.685);
+  text-align: center;
+  text-decoration: none; }
+
+.contenedorContacto {
+  width: 500px;
+  height: 200px;
+  padding: 5px;
+  margin: 10px 10px 10px 10px; }
+
+a {
+  text-decoration: none; }
+
+.iconoContacto {
+  height: 40px;
+  width: 40px; }
+
+.iconoEnvio {
+  height: 200px;
+  width: 200px; }
+
+/*BOOSTRAP cambios de estilos aplicados*/
+.featurette-divider {
+  margin: 5rem 0; }
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem; }
+
+.fotoTodoMocca {
+  height: 500px;
+  width: 400px; }
+
+.franja {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(122, 93, 59, 0.685);
+  margin-bottom: 10px; }
+
+/*AMINACION*/
+.logo:hover {
+  transform: scale(1.2, 1.2); }
+
+.titulos {
+  color: white;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  text-align: center; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.iconosB {
+  display: list-item;
+  background-color: rgba(124, 58, 10, 0.795); }
+
+.fuentesNav {
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(122, 93, 59, 0.685);
+  letter-spacing: -.05rem; }
+
+.principal {
+  background-color: tan;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+footer {
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(124, 58, 10, 0.795);
+  letter-spacing: -.05rem; }
+
+.secciones {
+  color: rgba(122, 93, 59, 0.685);
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+.seccionIndex {
+  height: 400px;
+  width: 400px; }
+
+.card-title {
+  color: rgba(124, 58, 10, 0.795); }
+
+.card-text {
+  color: saddlebrown; }
+
+.nuevaTemporada {
+  color: antiquewhite;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 60px; }
+
+a .nuevaTemporada:hover {
+  transform: scale(1.2, 1.2); }
+
+a:hover {
+  text-decoration: none; }
+
+/*# sourceMappingURL=estilo.css.map */
