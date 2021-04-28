@@ -133,4 +133,7 @@ a .nuevaTemporada:hover {
 a:hover {
   text-decoration: none; }
 
+.card {
+  border: none; }
+
 /*# sourceMappingURL=estilo.css.map */
