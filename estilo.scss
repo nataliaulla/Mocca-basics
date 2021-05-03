@@ -34,17 +34,19 @@ li{
     text-decoration: none;
 }
 .contenedorContacto{
-    width: 500px;
+    width: 200px;
     height: 200px;
     padding: 5px;
-    margin: 10px 10px 10px 10px;
+    
 }
 a{
     text-decoration: none;
 }
 .iconoContacto{
     @include sizes(40px,40px )
+    
 }
+
 .iconoEnvio{
     @include sizes(200px, 200px)
 }
@@ -100,16 +102,11 @@ a{
     
 }
 .principal{
-    background-color: tan;
+    
     padding-top: 20px;
     padding-bottom: 20px;
 }
-footer{
-    font-weight: bolder;
-    font-family:$fuentePrincipal;
-    color:$colorSecundario;
-    letter-spacing: -.05rem;
-}
+
 .secciones{
     color: $colorPrincipal;
     font-style: normal;
@@ -151,4 +148,47 @@ a:hover{
     
 .card{
     border: none;
+}
+
+.sale{
+    color: red;
+}
+
+.card-group{
+    margin-left: 50px;
+}
+
+.formulaRio{
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+.contactanos{
+    display:inline-flex;
+}
+
+.carousel-inner-c{
+    height: 280px;
+}
+
+.enviosYpagos{
+    background-color: tan;
+}
+
+.card-body-f{
+    background-color: $colorPrincipal;
+    
+}
+.card-text-f{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-family: $fuenteSecundaria;
+  
+}
+footer{
+    color: white;
+    font-family: $fuentePrincipal;
+}
+.enviosYpagos{
+    margin-bottom: 10px;
 }
