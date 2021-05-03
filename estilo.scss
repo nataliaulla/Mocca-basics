@@ -158,9 +158,11 @@ a:hover{
     margin-left: 50px;
 }
 
-.formulaRio{
-    margin-left: 550px;
+.formulario{
+    margin-left: 500px;
     margin-bottom: 50px;
+    margin-top: 30px;
+
 }
 .contactanos{
     display:inline-flex;
@@ -191,4 +193,17 @@ footer{
 }
 .enviosYpagos{
     margin-bottom: 10px;
+}
+
+.form-control-f{
+    width: 500px;
+}
+
+.form-group-f{
+    color: $colorSecundario;
+}
+
+.info{
+    color: $colorSecundario;
+    font-family: $fuentePrincipal;
 }

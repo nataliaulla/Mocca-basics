@@ -134,9 +134,10 @@ a:hover {
 .card-group {
   margin-left: 50px; }
 
-.formulaRio {
-  margin-left: 550px;
-  margin-bottom: 50px; }
+.formulario {
+  margin-left: 500px;
+  margin-bottom: 50px;
+  margin-top: 30px; }
 
 .contactanos {
   display: inline-flex; }
@@ -162,5 +163,15 @@ footer {
 
 .enviosYpagos {
   margin-bottom: 10px; }
+
+.form-control-f {
+  width: 500px; }
+
+.form-group-f {
+  color: rgba(124, 58, 10, 0.795); }
+
+.info {
+  color: rgba(124, 58, 10, 0.795);
+  font-family: "Montserrat", sans-serif; }
 
 /*# sourceMappingURL=estilo.css.map */

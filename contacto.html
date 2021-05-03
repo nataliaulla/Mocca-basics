@@ -80,31 +80,28 @@
     </a>
   </div>
   <!--FORMULARIO-->
-  <div class="formulaRio">
-    <form action="">
-      <fieldset class="formulario">
-        <legend>Info de contacto:</legend>
-        <label for="nombre">Nombre y Apellido:</label>
-        <input type="text" name="nombre"><br>
-        <label for="E-mail">E-mail:</label>
-        <input type="text" name="E-mail"><br>
-        <label for="telefono">Teléfono</label>
-        <input type="text" name="telefono"><br>
-        <label for="Sexo">Sexo:</label>
-        <select name="Sexo" id="">
-          <option value="Femenino">Femenino</option>
-          <option value="Masculino">Masculino</option>
-          <option value="Otro">Otro</option>
-        </select><br>
-        <label for="Acepta">Desea suscribirse al Newsletter?</label>
-        <input type="checkbox" name="Acepta" id="1"><br>
-        <label for="">Comentarios:</label><br>
-        <textarea name="" id="" cols="15" rows="5"></textarea><br>
-        <input type="submit" value="Enviar"><br>
-        <input type="reset" value="Borrar formulario"><br>
-      </fieldset>
-    </form>
-  </div>
+  <form class="formulario">
+    <legend class="info">Info de contacto:</legend>
+    <div class="form-group-f">
+      <label for="nombreYapellido">Nombre y Apellido</label>
+      <input type="text" class="form-control" id="formGroupExampleInput">
+    </div>
+    <div class="form-group-f">
+      <label for="formGroupExampleInput2">E-mail</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2">
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        Desea suscribirse al Newsletter?
+      </label>
+    </div>
+    <div class="form-group-f">
+      <label for="Comentarios">Comentarios:</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-light">Enviar</button>
+  </form>
   <footer>
     <div class="card text-center">
       <div class="card-body-f">
