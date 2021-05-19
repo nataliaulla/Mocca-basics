@@ -7,15 +7,9 @@ $fuenteSecundaria: 'Hind Siliguri', sans-serif;
 @mixin sizes($widt, $height) {
     height: $height;
     width: $widt;
-    
 }
-
 .logo{
     @include sizes(130px, 130px)
-   
-}
-.formulario{
-    color: saddlebrown;
 }
 .contacto{
     color: sienna;
@@ -44,9 +38,7 @@ a{
 }
 .iconoContacto{
     @include sizes(40px,40px )
-    
 }
-
 .iconoEnvio{
     @include sizes(200px, 200px)
 }
@@ -81,6 +73,13 @@ a{
     animation-name: aparecer;
     animation-iteration-count: infinite;
     text-align: center;
+    display: grid;
+}
+@media (max-width: 768px) {
+    .titulos {
+      font-size: 20px;
+      padding-top: 10px;
+    }
 }
 @keyframes aparecer {
     0% {
@@ -99,14 +98,11 @@ a{
     font-family:$fuentePrincipal;
     color: $colorPrincipal;
     letter-spacing: -.05rem;
-    
 }
 .principal{
-    
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .secciones{
     color: $colorPrincipal;
     font-style: normal;
@@ -127,83 +123,121 @@ a{
 .card-text{
     color: saddlebrown;
 }
-
 .nuevaTemporada{
     color: antiquewhite;
     font-style: normal;
     font-weight: normal;
     font-family: $fuenteSecundaria;
     font-size: 60px;
-    
-    
 }
-
- a .nuevaTemporada:hover{
+a .nuevaTemporada:hover{
     transform: scale(1.2,1.2);
 }
-    
 a:hover{
     text-decoration: none;
 }    
-    
 .card{
     border: none;
 }
-
 .sale{
     color: red;
 }
-
 .card-group{
     margin-left: 50px;
 }
-
-.formulario{
-    margin-left: 500px;
-    margin-bottom: 50px;
-    margin-top: 30px;
-
+@media (max-width: 768px){
+    .card-group{
+        margin-left: 0px;
+    }
 }
-.contactanos{
-    display:inline-flex;
-}
-
 .carousel-inner-c{
     height: 280px;
 }
-
 .enviosYpagos{
     background-color: tan;
 }
-
 .card-body-f{
     background-color: $colorPrincipal;
-    
 }
 .card-text-f{
     color: white;
     font-style: normal;
     font-weight: normal;
     font-family: $fuenteSecundaria;
-  
 }
-footer{
+.enviosYpagos{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.card-title-f{
     color: white;
     font-family: $fuentePrincipal;
 }
-.enviosYpagos{
-    margin-bottom: 10px;
+.field{
+    .label{
+        font-family: $fuenteSecundaria;
+        color: $colorPrincipal;
+    }
+    .checkbox{
+        font-family: $fuentePrincipal;
+        color: $colorSecundario;
+    }
 }
-
-.form-control-f{
-    width: 500px;
+.control{
+    .button{
+        color: $colorSecundario;
+    }
 }
-
-.form-group-f{
-    color: $colorSecundario;
+.columns{
+    margin-top: 10px;
 }
-
-.info{
-    color: $colorSecundario;
+.btn{
+    font-family: $fuenteSecundaria;
+    color: $colorPrincipal;
+    font-weight: bold;
+}
+#demo{
     font-family: $fuentePrincipal;
+    color:$colorSecundario;
+    font-weight: bold;
+}
+.error{
+    margin-left: 30%;
+    .gif{
+        width: 400px;
+        height: 300px;
+    }
+    h1{
+        color: $colorPrincipal;
+        font-family: $fuentePrincipal;
+        font-size: 100px;
+        padding-left: 150px;
+        padding-bottom: 0px;
+    }
+    p{
+        color: $colorPrincipal;
+        font-family: $fuentePrincipal;
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    button{
+        margin-left: 170px;
+        border: $colorSecundario;
+    }
+}
+@media (max-width: 768px){
+    .error{
+        margin-left: 1%;
+        .gif{
+            width: 300px;
+            height: 200px;
+            padding-left: 20%;
+        }
+        h1{
+            padding-left: 100px;
+        }
+        button{
+            margin-left: 110px;
+        }
+    }
 }

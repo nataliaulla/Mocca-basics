@@ -4,9 +4,6 @@
   height: 130px;
   width: 130px; }
 
-.formulario {
-  color: saddlebrown; }
-
 .contacto {
   color: sienna;
   font-style: normal;
@@ -70,8 +67,13 @@ a {
   animation-duration: 2s;
   animation-name: aparecer;
   animation-iteration-count: infinite;
-  text-align: center; }
+  text-align: center;
+  display: grid; }
 
+@media (max-width: 768px) {
+  .titulos {
+    font-size: 20px;
+    padding-top: 10px; } }
 @keyframes aparecer {
   0% {
     opacity: 0; }
@@ -134,14 +136,9 @@ a:hover {
 .card-group {
   margin-left: 50px; }
 
-.formulario {
-  margin-left: 500px;
-  margin-bottom: 50px;
-  margin-top: 30px; }
-
-.contactanos {
-  display: inline-flex; }
-
+@media (max-width: 768px) {
+  .card-group {
+    margin-left: 0px; } }
 .carousel-inner-c {
   height: 280px; }
 
@@ -157,21 +154,67 @@ a:hover {
   font-weight: normal;
   font-family: "Hind Siliguri", sans-serif; }
 
-footer {
+.enviosYpagos {
+  margin-bottom: 50px;
+  margin-top: 20px; }
+
+.card-title-f {
   color: white;
   font-family: "Montserrat", sans-serif; }
 
-.enviosYpagos {
-  margin-bottom: 10px; }
-
-.form-control-f {
-  width: 500px; }
-
-.form-group-f {
+.field .label {
+  font-family: "Hind Siliguri", sans-serif;
+  color: rgba(122, 93, 59, 0.685); }
+.field .checkbox {
+  font-family: "Montserrat", sans-serif;
   color: rgba(124, 58, 10, 0.795); }
 
-.info {
+.control .button {
+  color: rgba(124, 58, 10, 0.795); }
+
+.columns {
+  margin-top: 10px; }
+
+.btn {
+  font-family: "Hind Siliguri", sans-serif;
+  color: rgba(122, 93, 59, 0.685);
+  font-weight: bold; }
+
+#demo {
+  font-family: "Montserrat", sans-serif;
   color: rgba(124, 58, 10, 0.795);
-  font-family: "Montserrat", sans-serif; }
+  font-weight: bold; }
+
+.error {
+  margin-left: 30%; }
+  .error .gif {
+    width: 400px;
+    height: 300px; }
+  .error h1 {
+    color: rgba(122, 93, 59, 0.685);
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    padding-left: 150px;
+    padding-bottom: 0px; }
+  .error p {
+    color: rgba(122, 93, 59, 0.685);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding-left: 100px; }
+  .error button {
+    margin-left: 170px;
+    border: rgba(124, 58, 10, 0.795); }
+
+@media (max-width: 768px) {
+  .error {
+    margin-left: 1%; }
+    .error .gif {
+      width: 300px;
+      height: 200px;
+      padding-left: 20%; }
+    .error h1 {
+      padding-left: 100px; }
+    .error button {
+      margin-left: 110px; } }
 
 /*# sourceMappingURL=estilo.css.map */
